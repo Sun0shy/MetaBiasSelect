@@ -1188,5 +1188,3 @@ For redistribution, modification, or commercial use, please contact the author.
 # 17. Author
 
 Hongyu Sun
-
-```
