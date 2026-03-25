@@ -1,5 +1,7 @@
 # MetaBiasSelect
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/Sun0shy/MetaBiasSelect/main/man/figures/logo.svg" width="180">
+</p>
 **MetaBiasSelect** is an R package for identifying **cancer-biased clusters**, **candidate-biased clusters**, and **high-confidence shared clusters** from multi-cancer single-cell metastatic datasets using a standardized abundance-based workflow.
 
 It is designed for questions such as:
