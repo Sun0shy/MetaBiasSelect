@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.84 65.63">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .73px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: none;
+        stroke: #0b318f;
+      }
+
+      .cls-2 {
+        stroke-width: .79px;
+      }
+
+      .cls-3 {
+        stroke-width: .83px;
+      }
+
+      .cls-11 {
+        fill: #f9f1eb;
+      }
+
+      .cls-4 {
+        fill: #dcdddd;
+        mix-blend-mode: darken;
+        stroke: #094;
+        stroke-width: 3px;
+      }
+
+      .cls-12 {
+        fill: #d2ecf9;
+      }
+
+      .cls-13 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        stroke-width: .85px;
+      }
+
+      .cls-6 {
+        stroke-width: .72px;
+      }
+
+      .cls-14 {
+        fill: #231815;
+        font-family: TimesNewRomanPS-BoldMT, 'Times New Roman';
+        font-size: 6px;
+      }
+
+      .cls-15 {
+        fill: #03567e;
+      }
+
+      .cls-7 {
+        stroke-width: .62px;
+      }
+
+      .cls-16 {
+        fill: #f4c6dc;
+      }
+
+      .cls-8 {
+        stroke-width: .72px;
+      }
+
+      .cls-17 {
+        fill: #d3eadf;
+      }
+
+      .cls-9 {
+        stroke-width: .85px;
+      }
+
+      .cls-10 {
+        stroke-width: .65px;
+      }
+    </style>
+  </defs>
+  <g class="cls-13">
+    <g id="_图层_2" data-name="图层 2">
+      <g id="_图层_1-2" data-name="图层 1">
+        <g>
+          <polygon class="cls-4" points="55.34 17.27 28.42 1.73 1.5 17.27 1.5 48.36 28.42 63.9 55.34 48.36 55.34 17.27"/>
+          <g>
+            <ellipse class="cls-12" cx="20.35" cy="25.92" rx="2.4" ry="2.54"/>
+            <ellipse class="cls-11" cx="13.9" cy="32.59" rx="2.15" ry="2.28"/>
+            <ellipse class="cls-16" cx="14.76" cy="42.06" rx="2.17" ry="2.3"/>
+            <ellipse class="cls-11" cx="39.08" cy="28.61" rx="1.93" ry="2.04"/>
+            <ellipse class="cls-11" cx="18.59" cy="48.85" rx="1.93" ry="2.04"/>
+            <ellipse class="cls-17" cx="31.45" cy="49.94" rx="1.93" ry="2.04"/>
+            <ellipse class="cls-16" cx="42.65" cy="35.48" rx="2.56" ry="2.72"/>
+            <ellipse class="cls-12" cx="40.36" cy="45.35" rx="2.27" ry="2.41"/>
+            <ellipse class="cls-17" cx="32.28" cy="24.88" rx="2.45" ry="2.59"/>
+            <g>
+              <ellipse class="cls-7" cx="27.99" cy="37.63" rx="5.83" ry="5.94"/>
+              <ellipse class="cls-15" cx="27.99" cy="37.63" rx="3.17" ry="3.36"/>
+            </g>
+            <line class="cls-3" x1="32.76" y1="33.82" x2="37.46" y2="29.83"/>
+            <line class="cls-3" x1="33.64" y1="37.1" x2="39.82" y2="36.14"/>
+            <line class="cls-3" x1="33.01" y1="41" x2="38.22" y2="43.98"/>
+            <line class="cls-3" x1="21.64" y1="28.37" x2="24.73" y2="32.88"/>
+            <line class="cls-3" x1="29.78" y1="32.3" x2="31.46" y2="27.34"/>
+            <line class="cls-3" x1="29.46" y1="43.57" x2="30.98" y2="47.77"/>
+            <line class="cls-3" x1="17.25" y1="41.08" x2="22.25" y2="39.53"/>
+            <line class="cls-3" x1="22.4" y1="35.95" x2="16.08" y2="33.53"/>
+            <ellipse class="cls-7" cx="39.08" cy="28.61" rx="1.99" ry="2.11"/>
+            <ellipse class="cls-5" cx="42.7" cy="35.45" rx="2.72" ry="2.89"/>
+            <ellipse class="cls-1" cx="40.41" cy="45.24" rx="2.33" ry="2.47"/>
+            <ellipse class="cls-10" cx="31.45" cy="49.94" rx="2.06" ry="2.19"/>
+            <g>
+              <line class="cls-3" x1="19.99" y1="47.21" x2="24.15" y2="42.33"/>
+              <ellipse class="cls-7" cx="18.59" cy="48.85" rx="1.99" ry="2.11"/>
+            </g>
+            <ellipse class="cls-6" cx="14.85" cy="41.87" rx="2.3" ry="2.44"/>
+            <ellipse class="cls-8" cx="13.92" cy="32.6" rx="2.29" ry="2.43"/>
+            <ellipse class="cls-2" cx="20.38" cy="25.94" rx="2.53" ry="2.68"/>
+            <ellipse class="cls-9" cx="32.34" cy="24.88" rx="2.72" ry="2.88"/>
+          </g>
+          <text class="cls-14" transform="translate(9.05 20.24)"><tspan x="0" y="0">MetaBiasSelect</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

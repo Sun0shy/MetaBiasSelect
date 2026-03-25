@@ -1,0 +1,24 @@
+Package: MetaBiasSelect
+Type: Package
+Title: Standard Workflow for Multi-Cancer Metastatic Bias Cluster Selection
+Version: 0.1.0
+Authors@R: person(given = "OpenAI", family = "ChatGPT", role = c("aut", "cre"), email = "example@example.com")
+Description: A standardized workflow for selecting cancer-biased and shared cell clusters across multi-cancer metastatic lesions using sample-level proportions, enrichment scores, pairwise pseudobulk abundance testing, and integrated heatmap visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    tidyr,
+    tibble,
+    ggplot2,                        
+    purrr,
+    rlang,
+    magrittr,
+    ggnewscale,
+    scales,
+    edgeR
+Suggests:
+    knitr,
+    rmarkdown
