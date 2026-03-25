@@ -170,52 +170,125 @@ So:
 
 # 5. Installation
 
-## 5.1 CRAN / Bioconductor dependencies
+MetaBiasSelect can be installed either from GitHub or from a local source directory.
 
-CRAN packages:
+## 5.1 Required dependencies
 
-* dplyr
-* tidyr
-* tibble
-* ggplot2
-* purrr
-* rlang
-* magrittr
-* ggnewscale
-* scales
+MetaBiasSelect depends on several CRAN packages and one Bioconductor package.
 
-Bioconductor package:
+### CRAN packages
 
-* edgeR
+- dplyr
+- tidyr
+- tibble
+- ggplot2
+- purrr
+- rlang
+- magrittr
+- ggnewscale
+- scales
+- remotes
+
+### Bioconductor package
+
+- edgeR
+
+---
 
 ## 5.2 Install dependencies
+
+Install the required CRAN packages:
 
 ```r
 install.packages(c(
   "dplyr", "tidyr", "tibble", "ggplot2",
-  "purrr", "rlang", "magrittr", "ggnewscale", "scales"
+  "purrr", "rlang", "magrittr", "ggnewscale",
+  "scales", "remotes"
 ))
+```
 
+Install the required Bioconductor package:
+
+```r
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
   install.packages("BiocManager")
 }
 BiocManager::install("edgeR")
 ```
 
-## 5.3 Install the package
+---
 
-### Linux / terminal
+## 5.3 Install from GitHub
+
+The recommended installation method is directly from GitHub:
+
+```r
+install.packages("remotes")
+remotes::install_github("Sun0shy/MetaBiasSelect")
+```
+
+Then load the package:
+
+```r
+library(MetaBiasSelect)
+```
+
+---
+
+## 5.4 Install from a local source directory
+
+If you have already downloaded or cloned the repository, you can install it locally.
+
+### From R
+
+```r
+remotes::install_local("MetaBiasSelect")
+```
+
+or provide the full path:
+
+```r
+remotes::install_local("path/to/MetaBiasSelect")
+```
+
+### From terminal
 
 ```bash
 R CMD INSTALL MetaBiasSelect
 ```
 
-### From R
+---
+
+## 5.5 Verify installation
+
+After installation, test whether the package can be loaded successfully:
 
 ```r
-library(devtools)
-install_local("MetaBiasSelect")
+library(MetaBiasSelect)
 ```
+
+You can also list the main exported functions:
+
+```r
+ls("package:MetaBiasSelect")
+```
+
+Expected core functions include:
+
+- `run_metabias_pipeline`
+- `plot_metabias_heatmap`
+- `save_metabias_outputs`
+- `run_pairwise_cluster_da`
+- `classify_metabias_clusters`
+
+---
+
+## 5.6 Notes
+
+1. `edgeR` must be installed before running the main workflow.
+2. If GitHub installation fails because of network or certificate issues, download the repository ZIP file and use `remotes::install_local()` instead.
+3. On Linux servers, `R CMD INSTALL MetaBiasSelect` is usually the most stable installation method.
+4. After updating the source code, reinstall the package to ensure changes take effect.
 
 ---
 
